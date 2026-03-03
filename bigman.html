@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Man Dashboard | OkayMohit Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lexend', sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+        }
+
+        .big-man-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            transition: all 0.3s ease;
+        }
+
+        .big-man-card:hover {
+            border-color: #ff5733;
+        }
+
+        .checkbox-custom:checked+span {
+            text-decoration: line-through;
+            color: #666;
+        }
+
+        .accent-orange {
+            color: #ff5733;
+        }
+
+        .bg-orange {
+            background-color: #ff5733;
+        }
+    </style>
+</head>
+
+<body class="p-4 md:p-8">
+
+    <header class="max-w-6xl mx-auto text-center mb-12">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-2 italic">BIG <span class="accent-orange">MAN</span></h1>
+        <p class="text-gray-400 uppercase tracking-widest text-sm">Official Daily Routine Tracker (Fan Made)</p>
+        <div class="mt-6 flex justify-center gap-4">
+            <span class="bg-zinc-800 px-4 py-1 rounded-full text-xs">📍 Bangalore / Goa</span>
+            <span class="bg-zinc-800 px-4 py-1 rounded-full text-xs text-orange-400">💍 Wedding Prep: 30 Days
+                Left</span>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <section class="big-man-card p-6 rounded-2xl">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="accent-orange">⚡</span> Daily Rituals
+            </h2>
+            <div class="space-y-4">
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">40g Big Man Oat Bowl</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">The "Holy Trinity" (Chicken, Rice, Dal)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Gully Cricket in Flip-Flops</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Deep Work (The Vision)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Alishan Tikka Run (Frazer Town)</span>
+                </label>
+            </div>
+        </section>
+
+        <section class="big-man-card p-6 rounded-2xl">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="accent-orange">🤝</span> Social & Lore
+            </h2>
+            <div class="space-y-4">
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Meet Shefali (Daily wholesome bickering)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Nishok Meeting (1/3 for the week)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Call Kavin (Discussion of the vision)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">OG Hari Chaotic Interaction</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Samsung Momos / Millers 46</span>
+                </label>
+            </div>
+        </section>
+
+        <section class="big-man-card p-6 rounded-2xl">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span class="accent-orange">✨</span> Big Wishes
+            </h2>
+            <div class="space-y-4">
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Buying a New Car (The Dream)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Visit Goa (Even if I left yesterday)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Get Wedding Shredded (30 Days)</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Opening a "Big Man" Studio</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer group">
+                    <input type="checkbox" class="checkbox-custom w-5 h-5 accent-orange">
+                    <span class="text-lg group-hover:text-orange-300">Finally choosing a Wedding Suit</span>
+                </label>
+            </div>
+        </section>
+
+        <section class="big-man-card p-6 rounded-2xl md:col-span-3">
+            <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+                <span class="accent-orange">🛍️</span> Wedding Prep Mode
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <button onclick="updateChaos()"
+                    class="bg-zinc-800 p-4 rounded-xl text-left border border-zinc-700 hover:border-orange-500">
+                    <p class="text-xs text-gray-500 uppercase">Current Task</p>
+                    <p class="font-bold">Suit Trial & Wedding Shopping</p>
+                </button>
+                <button class="bg-zinc-800 p-4 rounded-xl text-left border border-zinc-700 hover:border-orange-500">
+                    <p class="text-xs text-gray-500 uppercase">Dessert of the Day</p>
+                    <p class="font-bold">Anywhere Shefali wants</p>
+                </button>
+            </div>
+
+            <div class="mt-8">
+                <div class="flex justify-between mb-2 text-sm">
+                    <span>Vibe Levels: <span id="chaos-text" class="accent-orange">Controlled Chaos</span></span>
+                    <span id="chaos-percent">65%</span>
+                </div>
+                <div class="w-full bg-zinc-800 h-4 rounded-full overflow-hidden">
+                    <div id="chaos-bar" class="bg-orange h-full transition-all duration-500" style="width: 85%"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="md:col-span-3 text-center py-8">
+            <p id="quote-display" class="text-2xl italic text-gray-300 mb-6 font-light">"Trust the process, the vision
+                is clear."</p>
+            <button onclick="newQuote()"
+                class="bg-orange text-black font-black px-8 py-4 rounded-full hover:scale-105 transition-transform uppercase tracking-tighter">
+                Generate Big Man Lingo
+            </button>
+        </section>
+    </main>
+
+    <footer class="text-center mt-20 text-gray-600 text-xs">
+        <p>Built for the Big Man Community. Not affiliated with @okaymohit officially.</p>
+    </footer>
+
+    <script>
+        const quotes = [
+            "Trust the process, the vision is clear.",
+            "Samsung Momos or we riot.",
+            "Flip-flops are the superior athletic footwear.",
+            "40g oats... exactly 40g.",
+            "Big Man in the building!",
+            "It's just chaotic productivity, bro.",
+            "Meeting 2 of 3 with Nishok today.",
+            "Alishan Tikka is the only motivation I need.",
+            "Wedding prep is 10% shopping, 90% eating desserts.",
+            "Just landed from Goa... honestly, I miss Goa already.",
+            "The new car is coming. The vision is set."
+        ];
+
+        function newQuote() {
+            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            document.getElementById('quote-display').innerText = `"${randomQuote}"`;
+        }
+
+        function updateChaos() {
+            const bar = document.getElementById('chaos-bar');
+            const text = document.getElementById('chaos-percent');
+            let newWidth = Math.floor(Math.random() * 40) + 60; // Keeps it between 60-100%
+            bar.style.width = newWidth + '%';
+            text.innerText = newWidth + '%';
+        }
+    </script>
+</body>
+
+</html>
